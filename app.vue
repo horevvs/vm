@@ -2,6 +2,6 @@
   <NuxtLayout>
     <myheader />
     <NuxtPage />
-    <myfooter />
+    <!-- <myfooter /> -->
   </NuxtLayout>
 </template>
