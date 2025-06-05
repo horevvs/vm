@@ -8,9 +8,7 @@
             <a href="" class="text-xl head">Проекты</a>
             <a href="" class="text-xl head">Статьи</a>
         </div>
-
-        <a href="" class="text-xl head border-1 rounded-2xl p-2  px-5 my-6 bg-slate-100 hover:bg-blue-300">Связаться с
-            нами</a>
+        <a href="" class="text-xl head border-1 rounded-xl p-2 px-5 my-6 bg-slate-100 hover:bg-blue-100">Связаться с нами</a>
     </div>
 </template>
 

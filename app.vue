@@ -1,5 +1,5 @@
 <template >
-  <NuxtLayout>
+  <NuxtLayout class="bg-slate-100">
     <myheader />
     <NuxtPage />
     <!-- <myfooter /> -->
