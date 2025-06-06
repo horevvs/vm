@@ -118,7 +118,7 @@
       </div>
       <div class="h-40 w-1/3 flex  p-5 transition-all duration-500 hover:scale-110">
         <img src="../public/images/streamline_business-handshake-solid.png" alt="" class="">
-        <p class="mt-12 mx-5 text-xl head">Некомерческие организации</p>
+        <p class="mt-12 mx-5 text-xl head">Не коммерческие организации</p>
       </div>
 
     </div>
@@ -128,6 +128,7 @@
       <rainbow />
     </div>
 
+    <send_msg />
 
 
   </div>

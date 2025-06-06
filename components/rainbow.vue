@@ -11,14 +11,6 @@
         <div class=" absolute px-3 p-1 text-xl  bg-slate-600  rounded-xl right-10 bottom-15">Сопровождение</div>
         <div class=" absolute px-3 p-1 text-xl  bg-slate-600  rounded-xl left-25 bottom-1">Поддержка</div>
         <div class=" absolute px-3 p-1 text-xl  bg-slate-600  rounded-xl -right-20 bottom-2">Тестирование</div>
-
-        <!-- <div class="relative px-3 p-1 text-xl bg-slate-600 rounded-xl cursor-pointer group">
-            Анализxxx
-            <div class="absolute bottom-full mb-2 opacity-0 scale-95 transition-opacity transition-transform duration-1000 ease-in-out group-hover:opacity-100 group-hover:scale-100 w-[200px] h-[300px]">
-                <img src="../public/images/2.png" alt="Анализ" class="w-full h-full object-cover rounded shadow-lg" />
-                <p>dddd</p>
-            </div>
-        </div> -->
     </div>
 </template>
 
