@@ -4,7 +4,7 @@
       <H1 class="text-center text-5xl font-black ">IT-компания полного цикла:</H1>
       <H2 class="text-center text-5xl font-black leading-relaxed">разработка, дизайн и продвижение</H2>
       <div class="text-center flex justify-center mt-5 ">
-        <H2 class="text-center text-xl "> Мы разрабатываем сайты и web-приложения, помогаем оцифровать ваши
+        <H2 class="text-center text-xl"> Мы разрабатываем сайты и web-приложения, помогаем оцифровать ваши
           бизнес-процессы.
           <br>
           Мы работаем начиная с концепции вашего приложения до полного запуска и продвижения вашего продукта.
@@ -39,24 +39,24 @@
 
     <hr class=" border-blue-300 border-1" />
 
-    <div class=" my-12  ">
+    <div class="my-12">
       <div class="text-xl flex justify-center font-black">
         <div class="container mt-2">Наши преимущества</div>
       </div>
       <div class="flex justify-center">
         <div class=" container  flex mt-5">
-          <div class="border-blue-300 border-t-8 border-b-8 border-l-8 w-2/3">
+          <div class="border-blue-300 border-t-8 border-b-8 border-l-8 w-4/5">
             <div class="flex h-42">
               <div
                 class=" p-5 w-3/5 border-b-4  border-r-4 border-blue-300 transition-all duration-300 hover:bg-blue-300 hover:text-slate-50">
                 <p class="text-2xl font-bold">Надежность</p>
                 <p class="text-lg">Мы строим долгосрочное отношения с нашими клиентами, соблюдаем сроки, гарантируем
-                  качество работы</p>
+                  качество работы.</p>
               </div>
               <div
                 class="p-5 w-2/5 border-b-4 border-l-4 border-blue-300 group p-5 w-3/5 border-b-4 border-r-4 border-blue-300 transition-all duration-300 hover:bg-blue-300 hover:text-slate-50">
                 <p class="text-2xl font-bold">Ответственность</p>
-                <p class="text-lg">Мы несем ответственость за результаты нашей работы, стремимся к устойчивому развитию
+                <p class="text-lg">Мы несем ответственость за результаты нашей работы, стремимся к устойчивому развитию.
                 </p>
               </div>
 
@@ -81,7 +81,7 @@
             class=" p-5 border-8 border-blue-300 w-1/3 transition-all duration-300 hover:bg-blue-300 hover:text-slate-50">
             <p class="text-2xl font-bold">Весь спектр услуг</p>
             <p class="text-lg"> Мы предлагаем все необходимые решения для вашего бизнеса в одной компании. от разработки
-              сайта до сопровождения после внедрения продукта </p>
+              сайта до сопровождения после внедрения продукта. </p>
           </div>
         </div>
       </div>
@@ -89,13 +89,50 @@
     <hr class=" border-blue-300 border-1 mt-12" />
     <div class=" container flex justify-center  mx-auto mt-12">
       <div class="text-xl mt-2 font-black  w-1/2">Работаем со всеми</div>
-      <div class=" mt-2  w-1/2">Мы специализируемся на работе с цифровыми продуктами и брендами, независимо от размера и
+      <div class=" mt-2  text-xl  w-1/2">Мы специализируемся на работе с цифровыми продуктами и брендами, независимо от
+        размера и
         стадии жизненного цикла проекта, от стартапов до устоявшихся компаний, стремящихся создать бренд. которые будет
-        выделяться</div>
+        выделяться.
+      </div>
     </div>
-    <div class="text-xl mt-2 font-black border-4 container mx-auto">Работаем со всеми2</div>
+    <div class="text-xl mt-2 font-black  mx-auto container flex flex-wrap">
+      <div class="h-40 w-1/3 flex p-5 transition-all duration-500 hover:scale-110 ">
+        <img src="../public/images/streamline_business-idea-money-solid.png" alt="" class="">
+        <p class="mt-12 mx-5 text-xl head">Малый Бизнес</p>
+      </div>
+      <div class="h-40 w-1/3 flex  p-5 transition-all duration-500 hover:scale-110">
+        <img src="../public/images/famicons_business-sharp.png" alt="" class="">
+        <p class="mt-12 mx-5 text-xl head">Средний Бизнес</p>
+      </div>
+      <div class="h-40 w-1/3 flex  p-5 transition-all duration-500 hover:scale-110">
+        <img src="../public/images/ic_round-real-estate-agent.png" alt="" class="">
+        <p class="mt-12 mx-5 text-xl head">Гос. организации</p>
+      </div>
+      <div class="h-40 w-1/3 flex  p-5 transition-all duration-500 hover:scale-110">
+        <img src="../public/images/fa-solid_business-time.png" alt="" class="">
+        <p class="mt-12 mx-5 text-xl head">Стартапы</p>
+      </div>
+      <div class="h-40 w-1/3 flex  p-5 transition-all duration-500 hover:scale-110">
+        <img src="../public/images/tdesign_shop-filled.png" alt="" class="">
+        <p class="mt-12 mx-5 text-xl head">Сетевые магазины</p>
+      </div>
+      <div class="h-40 w-1/3 flex  p-5 transition-all duration-500 hover:scale-110">
+        <img src="../public/images/streamline_business-handshake-solid.png" alt="" class="">
+        <p class="mt-12 mx-5 text-xl head">Некомерческие организации</p>
+      </div>
+
+    </div>
+
+    <hr class=" border-blue-300 border-1 " />
+    <div class="flex justify-center">
+      <rainbow />
+    </div>
+
+
+
   </div>
 </template>
+
 
 
 <script setup>
