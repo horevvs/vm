@@ -126,14 +126,13 @@
     <hr class=" border-blue-300 border-1 " />
     <div class="flex justify-center">
       <rainbow />
+      <uplink />
+      
     </div>
 
     <send_msg />
 
-    <div class="fixed rounded-full bg-blue-300 fixed-block ">
-      ссылка на  шапку сделать и вставить стрелку с скейлом в 15 процентов
-    </div>
-
+    
 
   </div>
 </template>
@@ -155,17 +154,3 @@ const carouselConfig = {
 </script>
 
 
-<style>
-/* Стиль для блока */
-.fixed-block {
-  
-  top: 50%;
-  /* отступ сверху */
-  right: 20px;
-  /* отступ справа */
-  width: 100px;
-  height: 100px;
-
-  z-index: 500;
-}
-</style>
